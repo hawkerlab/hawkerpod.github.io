@@ -53,10 +53,12 @@ export function Header() {
           <div className="relative z-10 flex items-center gap-4">
             <Link href="/" aria-label="Home" className="flex items-center">
               <Logo className="h-10 w-auto" />
-              Hawker
+              <div className="text-xl font-medium tracking-tight text-gray-900 pl-2">
+                Hawker
+              </div>
             </Link>
             <div className="hidden lg:flex lg:gap-10">
-              <NavLinks />
+              {/* <NavLinks /> */}
             </div>
           </div>
           <div className="flex items-center gap-6">
