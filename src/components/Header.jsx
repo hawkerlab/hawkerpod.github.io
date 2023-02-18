@@ -50,9 +50,10 @@ export function Header() {
     <header>
       <nav>
         <Container className="relative z-50 flex justify-between py-8">
-          <div className="relative z-10 flex items-center gap-16">
-            <Link href="/" aria-label="Home">
+          <div className="relative z-10 flex items-center gap-4">
+            <Link href="/" aria-label="Home" className="flex items-center">
               <Logo className="h-10 w-auto" />
+              Hawker
             </Link>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
@@ -122,12 +123,6 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/login" variant="outline" className="hidden lg:block">
-              Log in
-            </Button>
-            <Button href="#" className="hidden lg:block">
-              Download
-            </Button>
           </div>
         </Container>
       </nav>
