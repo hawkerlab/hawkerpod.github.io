@@ -22,7 +22,7 @@ export default function Home() {
                     Privacy Policy
                 </h1>
                 <p className="mt-2 text-lg text-gray-900">
-                This Privacy Policy describes how Shape Up Board ("the app", "we", "our" or "us") collects, uses and discloses information, and what choices you have with respect to the information.
+                This Privacy Policy describes how Hawker ("the app", "we", "our" or "us") collects, uses and discloses information, and what choices you have with respect to the information.
                 </p>
             </div>
 
